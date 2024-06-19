@@ -6,6 +6,7 @@ equal to the number itself, then the number is called an
 Armstrong number. For example, 153 = ( 1 * 1 * 1 ) + ( 5 * 5 
 * 5 ) + ( 3 * 3 * 3 ) 
  */
+import com.basic.Interchange;
 public class ArmstrongNnumber {
 	public static int main(String[] args) {
 		int power(int x, long y){
