@@ -7,12 +7,12 @@ he made or loss he incurred
  */
 public class ProfitLoss {
 	public static void main(String[] args) {
-		int cp=100, sp=120, pp, lp;
+		int cp=100, sp=120, pp, lp1;
 		if(sp>cp) {
 			pp = sp - cp;
 			System.out.println("Profit price :" +pp);
 		}else if(sp<cp) {
-			lp = cp-sp;
+			lp1 = cp-sp;
 			System.out.println("Loss Price");
 			}
 		else {

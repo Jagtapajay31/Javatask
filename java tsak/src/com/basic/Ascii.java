@@ -9,6 +9,14 @@ public class Ascii {
 		for (int i = 0; i <= 255; i++) {
 			System.out.println("Ascii value :"+ (char)i + "  =  " +i);
 		}
+//		Scanner sc=new Scanner(System.in);
+//		int n;
+//		System.out.println("enter char :");
+//		n =sc.nextInt();
+//		
+//		for (int i = 0; i <= n; i++) {
+//			System.out.println("Ascii value :"+ (char)i + "  =  " +i);
+//		}
 	}
 
 }

@@ -2,7 +2,7 @@ package com.basic;
 
 public class OddEven {
 	public static void main(String[] args) {
-		int number = 17;
+		int number = 16;
 		if (number%2 == 0) {
 			System.out.println("Number is Even");
 		}

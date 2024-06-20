@@ -4,7 +4,7 @@ package com.basic;
  */
 public class DayMonthSwitch {
 	public static void main(String[] args) {
-		int month=11;
+		int month=19;
 		int days;
 		
 	    switch (month) {

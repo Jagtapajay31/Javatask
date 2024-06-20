@@ -1,10 +1,17 @@
 package com.basic;
+
+import java.util.Scanner;
+
 /*
  * Write a program to read gender(M/F) and print the corresponding gender using a switch statement
  */
 public class CorrespondingGender {
 	public static void main(String[] args) {
-		char gen = 1;
+		Scanner sc=new Scanner(System.in);
+		char gen;
+		
+		System.out.println("Enter Gender (m/M or F/f) :");
+		gen = sc.next().charAt(0);
 
 		switch (gen)
 		{

@@ -9,7 +9,7 @@ public class Triangle {
 	public static void main(String[] args) {
 		int a = 60, b= 40, c= 80, sum;
 		sum = a + b + c; 
-		if(sum == 180 && a > 0 && b > 0 && c > 0) 
+		if(sum == 180) 
 		{
 			System.out.println("Triangle is valid");
 		}
